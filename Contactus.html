@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles\styles.css">
+  <link rel="icon" type="image/x-icon" href="Images\Icon2.png">
+</head>
+
+<body style="background-color: #f2f2f2;">
+  <nav>
+    <img src="Images\Screenshot 2022-08-17 152323.png" alt="Logo" id="Logo">
+    <h3 id="Logo-name">Programming-Club</h3>
+    <ul style="float: right;margin-right: 20px;">
+      <li style="display: inline-block;line-height: 15vh;margin: 0 2.5vw;font-size: 1.05vw;font-weight: bold;"><a
+          href="Events.html">Events</a></li>
+      <li style="display: inline-block;line-height: 15vh;margin: 0 2.5vw;font-size: 1.05vw;font-weight: bold;"><a
+          href="Members.html">Members</a></li>
+      <li style="display: inline-block;line-height: 15vh;margin: 0 2.5vw;font-size: 1.05vw;font-weight: bold;"><a
+          href="Contactus.html">Contact Us</a></li>
+      <li style="display: inline-block;line-height: 15vh;margin: 0 2.5vw;font-size: 1.05vw;font-weight: bold;"><a
+          href="index.html">Home</a></li>
+    </ul>
+  </nav>
+  <div class="container" style="padding-top:20vh;">
+    <form action="mailto:programming.club@ahduni.edu.in" enctype="text/plain" method="post">
+
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="Year">Year</label>
+      <select id="country" name="Year">
+        <option value="First">First</option>
+        <option value="Second">Second</option>
+        <option value="Third">Third</option>
+        <option value="Fourth">Fourth</option>
+      </select>
+
+      <label for="subject">Your Message</label>
+      <textarea id="subject" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+
+</html>

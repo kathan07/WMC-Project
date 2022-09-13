@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    scrollbar-arrow-color: white;
+
+}
+body{
+    font-family: sans-serif;
+    margin: 0%;
+}
+#Logo{
+    display: flexbox;
+    height: 8vh;
+    width: 5vw;
+    margin-left: 2vw;
+    margin-top: 2.5vh;
+    border-radius: 1vw;
+}
+nav {
+    background-color: purple;
+    height: 13vh;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    display: block;
+}
+#Logo-name {
+    display: inline-block;
+    margin-left: 0.8vw;
+    vertical-align: 2.5vh; 
+}
+a{
+    color: white;
+    text-transform: uppercase;
+    padding: 7px 13px;
+}
+nav a.active,a:hover{
+    transition: .5s;
+    background: black;
+}
+.BigLogo{
+    height: 24vh;
+    width: 15vw;
+    margin-left: 42vw;
+    margin-top: 30vh;
+    border-radius: 1vw;
+    padding-bottom: 2.5vh;
+}
+.Members{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+#myVideo {
+    width: 100%;
+    padding-top: 13vh;
+    height: 87vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: purple;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: violet;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+
